@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
                 if(errorCode == BiometricPrompt.ERROR_NEGATIVE_BUTTON) {
                     //User clicked negative button
                 } else {
-                    //TODO
+                    //TODO("Called when an unrecoverable error has been encountered and the operation is complete.")
                 }
             }
 
